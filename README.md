@@ -51,6 +51,7 @@ Currently supported browsers:
 Run one test case or the whole suite using Chrome web browser.
 
 - Run the suite:
+
 Load the project on PyCharm or other Python IDE and hit the green arrow to run the suite on Tests.py
 
 Another option is to issue the below commands in project root directory
@@ -59,6 +60,7 @@ python3 Tests.py
 ```
 
 - Run specific test cases: 
+
 Load the project on PyCharm or other Python IDE and hit the green arrow to run a specific test on Tests.py
 
 Or Issue the below commands in project root directory
