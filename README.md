@@ -48,23 +48,26 @@ Currently supported browsers:
 
 ## How to run?
 
-Run one test case or the whole suite using Chrome or Firefox web browser.
+Run one test case or the whole suite using Chrome web browser.
 
 - Run the suite:
-Issue the below commands in project root directory
+Load the project on PyCharm or other Python IDE and hit the green arrow to run the suite on Tests.py
+
+Another option is to issue the below commands in project root directory
 ```
 python3 Tests.py
 ```
 
 - Run specific test cases: 
-Issue the below commands in project root directory
+Load the project on PyCharm or other Python IDE and hit the green arrow to run a specific test on Tests.py
+
+Or Issue the below commands in project root directory
 ```
 python3 -m unittest testAll.TestContact.TEST_NAME
 ```
 _Example: python3 -m unittest testAll.TestContact.test_send_message_with_empty_text_
 
-By default it runs in Chrome browser, you can specify which browser to use as well running from testAllFirefox.py instead testAll.py.
-The webdrivers were set to run headless, if need to watch the execution, please, comment the line 11 on testAll.py or testAllFirefox.py.
+The webdrivers were set to run headless, if you need to watch the execution, please, comment the line 12 on Tests.py.
 
 
 ## Author
