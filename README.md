@@ -1,4 +1,4 @@
-<h1 align="left">:computer: Technical_Chanllenge_Coodesh  </h1>
+<h1 align="left">:computer: Technical_Challenge_Coodesh  </h1>
 
 Technical Challenge resolution for Coodesh
 
